@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JigsApp" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-31T00:55:05" hostname="ainur.lan" time="0.547">
+  <properties/>
+  <testcase name="contextLoads()" classname="ph.maya.oss.JigsAppTest" time="0.547"/>
+  <system-out><![CDATA[08:55:04.047 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [ph.maya.oss.JigsAppTest]: JigsAppTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+08:55:04.082 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration ph.maya.oss.JigsApp for test class ph.maya.oss.JigsAppTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.2)
+
+2023-07-31T08:55:04.215+08:00  INFO 62028 --- [    Test worker] ph.maya.oss.JigsAppTest                  : Starting JigsAppTest using Java 19.0.2 with PID 62028 (started by eric in /Users/eric/eDevtWorks/maya/moss/jigs-ds)
+2023-07-31T08:55:04.216+08:00  INFO 62028 --- [    Test worker] ph.maya.oss.JigsAppTest                  : No active profile set, falling back to 1 default profile: "default"
+2023-07-31T08:55:04.426+08:00  INFO 62028 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-31T08:55:04.434+08:00  INFO 62028 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-07-31T08:55:04.576+08:00  INFO 62028 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-31T08:55:04.642+08:00  INFO 62028 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:fd536315-6eb4-46a3-a425-3d4ede671a45 user=SA
+2023-07-31T08:55:04.643+08:00  INFO 62028 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-31T08:55:04.661+08:00  INFO 62028 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-31T08:55:04.681+08:00  INFO 62028 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-07-31T08:55:04.681+08:00  INFO 62028 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-31T08:55:04.728+08:00  INFO 62028 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-31T08:55:04.775+08:00  INFO 62028 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-31T08:55:04.820+08:00  INFO 62028 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-31T08:55:04.890+08:00  INFO 62028 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-31T08:55:04.891+08:00  INFO 62028 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-31T08:55:04.945+08:00  WARN 62028 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-31T08:55:05.082+08:00  INFO 62028 --- [    Test worker] ph.maya.oss.JigsAppTest                  : Started JigsAppTest in 0.949 seconds (process running for 1.349)
+2023-07-31T08:55:05.083+08:00  INFO 62028 --- [    Test worker] ph.maya.oss.JigsApp                      : Hello, this is JIGS-DS running as a Spring Boot CLI App!
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.2)
+
+2023-07-31T08:55:05.414+08:00  INFO 62028 --- [    Test worker] w.o.g.p.i.worker.GradleWorkerMain        : Starting GradleWorkerMain using Java 19.0.2 with PID 62028 (started by eric in /Users/eric/eDevtWorks/maya/moss/jigs-ds)
+2023-07-31T08:55:05.414+08:00  INFO 62028 --- [    Test worker] w.o.g.p.i.worker.GradleWorkerMain        : No active profile set, falling back to 1 default profile: "default"
+2023-07-31T08:55:05.458+08:00  INFO 62028 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-31T08:55:05.459+08:00  INFO 62028 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2023-07-31T08:55:05.522+08:00  INFO 62028 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-31T08:55:05.526+08:00  INFO 62028 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-31T08:55:05.526+08:00  INFO 62028 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-07-31T08:55:05.561+08:00  INFO 62028 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-31T08:55:05.562+08:00  INFO 62028 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 146 ms
+2023-07-31T08:55:05.586+08:00  INFO 62028 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-07-31T08:55:05.590+08:00  INFO 62028 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:5d054e86-9beb-4dc9-a5af-50e81f024e1b user=SA
+2023-07-31T08:55:05.590+08:00  INFO 62028 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-07-31T08:55:05.590+08:00  INFO 62028 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-31T08:55:05.592+08:00  INFO 62028 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-31T08:55:05.592+08:00  INFO 62028 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-31T08:55:05.593+08:00  INFO 62028 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-31T08:55:05.595+08:00  INFO 62028 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-31T08:55:05.595+08:00  INFO 62028 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-31T08:55:05.599+08:00  WARN 62028 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-31T08:55:05.630+08:00  INFO 62028 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-31T08:55:05.632+08:00  INFO 62028 --- [    Test worker] w.o.g.p.i.worker.GradleWorkerMain        : Started GradleWorkerMain in 0.224 seconds (process running for 1.898)
+2023-07-31T08:55:05.632+08:00  INFO 62028 --- [    Test worker] ph.maya.oss.JigsApp                      : Hello, this is JIGS-DS running as a Spring Boot CLI App!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
