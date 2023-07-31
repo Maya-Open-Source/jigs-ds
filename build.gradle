@@ -25,7 +25,7 @@ tasks.named('test') {
 
 sonar {
   properties {
-    property "sonar.projectKey", "moss-jigs-ds"
+    property "sonar.projectKey", "maya-opensource-software_jigs-ds"
     property "sonar.organization", "moss"
     property "sonar.host.url", "https://sonarcloud.io"
   }
